@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var firstArray=["Lily","Carnation","Orchid","Tulip"];
+        var secondArray=["Rose","Jasmine","Tuberose","Lavender"]
+    var flowers=firstArray.concat(secondArray);
+    flowers.unshift("Calla Lily","Casablanca Lily");
+
+    flowers.splice(flowers.indexOf("Tulip"),0,"Daisy","Lotus flowers");
+    var flowerNames=flowers.join(",");
+    alert("All flower names:"+flowerNames);
+    </script>
+</body>
+</html>

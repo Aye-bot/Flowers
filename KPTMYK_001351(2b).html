@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    var fruits=["Apple","Orange","Pipe Apple","Water Melon","Grspe","Rose","Jasmine","Lily","Orchid"];
+    var flowers=[];
+    var removedFlowers=fruits.splice(fruits.indexOf("Rose"),1);
+    var removedFlowers=flowers.push(removedFlowers[0]);
+
+    var removedFlowers=fruits.splice(fruits.indexOf("jasmine"),1);
+    var removedFlowers=flowers.push(removedFlowers[0]);
+
+    var removedFlowers=fruits.splice(fruits.indexOf("Lily"),1);
+    var removedFlowers=flowers.push(removedFlowers[0]);
+
+    var removedFlowers=fruits.splice(fruits.indexOf("Orchid"),1);
+    var removedFlowers=flowers.push(removedFlowers[0]);
+    fruits.unshift("Super Melon","Honey Melon");
+    flowers.push("Tuberose","Lavender");
+
+    alert("Fruits:"+fruits.join(","));
+    alert("Flowers:"+flowers.join(","));
+</script>
+</body>
+</html>
